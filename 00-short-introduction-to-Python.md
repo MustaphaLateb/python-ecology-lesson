@@ -6,6 +6,23 @@ title: Short Introduction to Programming in Python
 
 # The Basics of Python
 
+## Learning Objectives
+*Lower-level objectives (Remember/Understand)*
+* Identify the main advantages of Python.
+* Explain what is meant when we say that Python is an “interpreted language”.
+* Identify the three most basic Python data types.
+* Explain the difference between `2 * 4` and `2 ** 4`.
+* Explain why `13 % 5` returns `3`.
+* Describe the basic properties of the following: List, Tuple, Dictionary
+
+*Higher-level objectives (Apply/Analyze/Evaluate/Synthesize)*
+* Demonstrate how you would print a variable on the command line versus in a script.
+* Describe the purpose of a method and demonstrate how you find out what methods are available.
+* Compare and contrast tuples and lists.
+* Compare and contrast dictionaries with other sequential types.
+* Give an example of a properly structured function that takes three inputs, and outputs the sum of the first two inputs, divided by the third input.
+
+## Why Python?
 Python is a general purpose programming language, that supports rapid development
 of scripts and applications.
 
@@ -58,7 +75,7 @@ pi_value = 3.1415
 Here we've assigned data to variables, namely `text`, `number` and `pi_value`,
 using the assignment operator `=`. The variable called `text` is a string which
 means it can contain letters and numbers. We could reassign the variable `text`
-to an integer too - but be careful reassigning variables as this can get 
+to an integer too - but be careful reassigning variables as this can get
 confusing.
 
 To print out the value stored in a variable we can simply type the name of the
@@ -143,7 +160,7 @@ To add elements to the list, we can use the `append` method:
 [1,2,3,4]
 ```
 
-Methods are a way to interact with an object - like a list. We can use or apply 
+Methods are a way to interact with an object - like a list. We can use or apply
 a method to a variable or element using the dot `.`. To find out what methods are
  available, we can use the built-in `help` command:
 
@@ -197,9 +214,9 @@ A **dictionary** is a container that holds pairs of objects - keys and values.
 >>> translation["one"]
 1
 ```
-Dictionaries work a lot like lists - except that you index them with *keys*. 
+Dictionaries work a lot like lists - except that you index them with *keys*.
 You can think about a key as a name for or a unique identifier for a set of values
-in the dictionary. Keys can only have particular types - they have to be 
+in the dictionary. Keys can only have particular types - they have to be
 "hashable". Strings and numeric types are acceptable, but lists aren't.
 
 ```python
