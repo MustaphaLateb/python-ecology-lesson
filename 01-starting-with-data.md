@@ -8,13 +8,21 @@ title: Starting With Data
 
 
 ### Learning Objectives
+*Lower-level objectives (Remember/Understand)*
 * Explain what a library is, and what libraries are used for.
-* Load a Python/Pandas library.
-* Read tabular data from a file into Python using Pandas using `read_csv`.
-* Learn about the Pandas DataFrame object.
-* Learn about data slicing and indexing.
-* Perform mathematical operations on numeric data.
-* Create simple plots of data.
+* Explain what a DataFrame is, and what DataFrames are used for
+* Explain the general purpose of the Pandas `.groupby` method and give an example of what it might be used to accomplish
+
+*Higher-level objectives (Apply/Analyze/Evaluate/Synthesize)*
+* Load Python libraries, such as Pandas and OS
+* Read tabular data from a file into Python using Pandas' `read_csv`.
+* View DataFrame objects using the `.columns`, `.head()`, `.tail()`, and `.shape` methods.
+* Demonstrate how to summarize the unique values in a single column
+* Demonstrate how to calculate basic statistics for all records in a single column
+* Demonstrate how to generate summary statistics for columns grouped by a particular attribute, e.g. mean weight by sex
+* Demonstrate how to generate summary counts for columns grouped by a particular attribute, e.g. number of males
+* Demonstrate how to perform basic mathematical operations on entire columns of numeric data
+* Create simple plots to visualize data, e.g. bar plot, stacked bar plot
 
 ## Presentation of the survey data
 
